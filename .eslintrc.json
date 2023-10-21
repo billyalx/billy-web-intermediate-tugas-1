@@ -3,6 +3,12 @@
   /*
    * Buatlah minimal 5 konfigurasi ESLint untuk opsi RULES.
    * Selanjutnya, install Prettier secara lokal dan buatlah minimal 3 opsi konfigurasi.
-  */
-  "rules": {}
+   */
+  "rules": {
+    "quotes": "off", // tidak mengharuskan penggunaan tanda kutip 2
+    "linebreak-style": ["error", "windows"], // mengharuskan penggunaan line break
+    "react/react-in-jsx-scope": "off", // tidak perlu mengimport react ke dalam file js
+    "react/jsx-props-no-spreading": "off", // dapat menggunakan operator spread
+    "no-console": "warn" // memberikan warn pada baris program console
+  }
 }
