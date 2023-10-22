@@ -7,7 +7,9 @@ export default function Card() {
     <div className="max-w-md mx-auto my-5 overflow-hidden bg-white shadow-md rounded-xl">
       <div className="">
         <div className="image">
-          <img src={RonaldoImage} alt="Ronaldo" width={200} height={200} />
+          <picture>
+            <img src={RonaldoImage} alt="Ronaldo" width={200} height={200} />
+          </picture>
 
           {/* <Image src={RonaldoImage} alt="Ronaldo" width={200} height={200} /> */}
           <Image src={MessiImage} alt="Messi" width={250} height={200} />
