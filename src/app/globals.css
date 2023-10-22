@@ -50,8 +50,7 @@ h2 {
   gap: 5px;
 }
 
-.image-mentee,
-.image-mentor {
+.image-user {
   display: flex;
   gap: 10px;
   justify-content: center;

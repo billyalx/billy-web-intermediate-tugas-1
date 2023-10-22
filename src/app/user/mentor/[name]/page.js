@@ -7,7 +7,7 @@ export default function Mentor({ params }) {
   return (
     <>
       <h1>Ini adalah halaman mentor: {params.name}</h1>
-      <div className="image-mentee">
+      <div className="image-user">
         <Image
           src="https://howtowriteabookthatsells.com/wp-content/uploads/2013/07/mentor_istock.jpg"
           alt="Mentee"

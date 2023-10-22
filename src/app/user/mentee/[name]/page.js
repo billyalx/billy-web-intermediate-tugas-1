@@ -7,7 +7,7 @@ export default function Mentee({ params }) {
   return (
     <>
       <h1>Ini adalah halaman mentee: {params.name}</h1>
-      <div className="image-mentee">
+      <div className="image-user">
         <Image
           src="https://i.pinimg.com/originals/a3/8a/7f/a38a7fcc90a645c9eb186cd2d7f5ae7a.png"
           alt="Mentee"
