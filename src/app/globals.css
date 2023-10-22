@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+h1 {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h2 {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Navbar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
 }
