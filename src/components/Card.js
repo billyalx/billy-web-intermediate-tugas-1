@@ -1,9 +1,16 @@
+import Image from "next/image";
+import RonaldoImage from "../../public/images/ronaldo.jpg";
+import MessiImage from "../../public/images/messi.jpg";
+
 export default function Card() {
   return (
     <div className="max-w-md mx-auto my-5 overflow-hidden bg-white shadow-md rounded-xl">
       <div className="">
-        <div className="">
-          {/* <img className="object-cover w-full h-48 md:w-48" src="/your-image.jpg" alt="Card image" /> */}
+        <div className="image">
+          <img src={RonaldoImage} alt="Ronaldo" width={200} height={200} />
+
+          {/* <Image src={RonaldoImage} alt="Ronaldo" width={200} height={200} /> */}
+          <Image src={MessiImage} alt="Messi" width={250} height={200} />
         </div>
         <div className="p-8">
           <a

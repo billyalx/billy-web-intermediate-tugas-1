@@ -44,3 +44,17 @@ h2 {
 .navbar-item:hover {
   text-decoration: underline;
 }
+
+.image {
+  display: flex;
+  gap: 5px;
+}
+
+.image-mentee,
+.image-mentor {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
